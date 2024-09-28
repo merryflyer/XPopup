@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 //        BarUtils.setNavBarVisibility(MainActivity.this, false);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle(actionBar.getTitle() + "-" + BuildConfig.VERSION_NAME);
+        actionBar.setTitle(actionBar.getTitle() + "-" + "xpopup");
 
         tabLayout = findViewById(R.id.tabLayout);
         viewPager = findViewById(R.id.viewPager);
